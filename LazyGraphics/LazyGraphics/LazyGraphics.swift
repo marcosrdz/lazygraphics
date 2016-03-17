@@ -13,6 +13,10 @@ import CoreGraphics
 public class LazyGraphics {
     
     public class func applyBorder(view view: UIView, borderWidth: CGFloat, borderColor: UIColor) {
+        if let errorCode = isInvalidObject(view, testType: .DimensionsMatch) {
+            printErrorDescription(errorCode)
+        }
+        
         view.layer.borderWidth = borderWidth
         view.layer.borderColor = borderColor.CGColor
     }
@@ -35,6 +39,10 @@ public class LazyGraphics {
     }
     
     public class func applyRoundCornersWithBorder(view view: UIView, borderColor: UIColor, borderWidth: CGFloat) {
+        if let errorCode = isInvalidObject(view, testType: .DimensionsMatch) {
+            printErrorDescription(errorCode)
+        }
+        
         view.clipsToBounds = true
         view.layer.masksToBounds = true
         view.layer.borderColor = borderColor.CGColor
@@ -43,6 +51,10 @@ public class LazyGraphics {
     }
     
     public class func applyRoundCorners(view view: UIView) {
+        if let errorCode = isInvalidObject(view, testType: .DimensionsMatch) {
+            printErrorDescription(errorCode)
+        }
+        
         view.layer.masksToBounds = true
         view.clipsToBounds = true
         view.layer.cornerRadius = view.frame.width/2
