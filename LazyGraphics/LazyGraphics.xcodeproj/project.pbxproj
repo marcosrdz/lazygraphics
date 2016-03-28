@@ -11,6 +11,8 @@
 		B405E2401C98DA4A00BEC020 /* LazyGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B405E2351C98DA4A00BEC020 /* LazyGraphics.framework */; };
 		B405E2451C98DA4A00BEC020 /* LazyGraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B405E2441C98DA4A00BEC020 /* LazyGraphicsTests.swift */; };
 		B405E2501C98DA5A00BEC020 /* LazyGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B405E24F1C98DA5A00BEC020 /* LazyGraphics.swift */; };
+		B41146671CA8C7B7000CFE06 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B41146651CA8C7B7000CFE06 /* LICENSE */; };
+		B411466A1CA8C884000CFE06 /* LazyGraphics.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B41146691CA8C884000CFE06 /* LazyGraphics.podspec */; };
 		B4B146E11C9A5F3D008556B0 /* LazyGraphics+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B146E01C9A5F3D008556B0 /* LazyGraphics+Errors.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		B405E2441C98DA4A00BEC020 /* LazyGraphicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGraphicsTests.swift; sourceTree = "<group>"; };
 		B405E2461C98DA4A00BEC020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B405E24F1C98DA5A00BEC020 /* LazyGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyGraphics.swift; sourceTree = "<group>"; };
+		B41146651CA8C7B7000CFE06 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B41146691CA8C884000CFE06 /* LazyGraphics.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LazyGraphics.podspec; sourceTree = "<group>"; };
 		B4B146E01C9A5F3D008556B0 /* LazyGraphics+Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LazyGraphics+Errors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +61,8 @@
 		B405E22B1C98DA4A00BEC020 = {
 			isa = PBXGroup;
 			children = (
+				B41146651CA8C7B7000CFE06 /* LICENSE */,
+				B41146691CA8C884000CFE06 /* LazyGraphics.podspec */,
 				B405E2371C98DA4A00BEC020 /* LazyGraphics */,
 				B405E2431C98DA4A00BEC020 /* LazyGraphicsTests */,
 				B405E2361C98DA4A00BEC020 /* Products */,
@@ -183,6 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41146671CA8C7B7000CFE06 /* LICENSE in Resources */,
+				B411466A1CA8C884000CFE06 /* LazyGraphics.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
